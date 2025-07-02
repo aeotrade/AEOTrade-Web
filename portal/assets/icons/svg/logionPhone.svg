@@ -1,0 +1,18 @@
+<svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3d5afe;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>登录小 icon</title>
+  <g>
+    <circle class="cls-1" cx="20" cy="20" r="20"/>
+    <path class="cls-2" d="M448.5,501.41v20h14.13v-20Zm7.06,18.83a1.77,1.77,0,1,1,1.77-1.77h0A1.77,1.77,0,0,1,455.56,520.24Zm4.71-4.71h-9.41V503.76h9.41Z" transform="translate(-435.56 -491.41)"/>
+  </g>
+</svg>

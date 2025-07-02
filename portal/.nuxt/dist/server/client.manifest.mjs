@@ -1,0 +1,1 @@
+export { default } from "file:///Users/li/workspace/open/open-aeotrade-web/portal/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

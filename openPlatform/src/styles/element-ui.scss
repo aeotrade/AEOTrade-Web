@@ -1,0 +1,229 @@
+//$--color-primary: #3d5afe;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+// cover some element-ui styles
+//.el-input__inner:hover {
+//  border-color: #3D5AFE!important;
+//}
+.el-tooltip__popper.is-light,.el-tooltip__popper.is-dark{
+  background: #fff;
+  color: #000;
+  border: none;
+  box-shadow: 0 2px 12px 0 var(--aeo-primary-color-9);
+}
+//箭头背景颜色修改
+.el-tooltip__popper{
+  &.is-light[x-placement^=top],&.is-dark[x-placement^=top]{
+    .popper__arrow{
+      border-top-color: #fff;
+      &:after{
+        border-top-color: #fff;
+      }
+    }
+  }
+
+}
+//.el-tooltip__popper .popper__arrow{
+//  border-left-color: #E6F7FF;
+//}
+//.el-tooltip__popper .popper__arrow:after {
+//  border-left-color: #E6F7FF;
+//}
+.el-upload {
+  width: auto!important;
+}
+.breadHead{
+  height: 21px;
+  width: 0px;
+  border: 2px solid var(--aeo-primary-color);
+  float: left;
+  margin-right: 10px;
+  background-color: var(--aeo-primary-color);
+}
+.el-table th>.cell{
+  color: #010101;
+  background-color: #F7F8F9;
+}
+.el-breadcrumb__inner,
+.el-breadcrumb__inner a {
+  //font-weight: 400 !important;
+  color: rgba(16, 16, 16, 100);
+  font-weight: bold!important;
+}
+.el-card.is-always-shadow{
+  box-shadow: 0px 2px 6px 0px var(--aeo-primary-color-9);
+}
+
+.el-upload {
+  input[type="file"] {
+    display: none !important;
+  }
+}
+
+.el-upload__input {
+  display: none;
+}
+
+
+// to fixed https://github.com/ElemeFE/element/issues/2461
+.el-dialog {
+  transform: none;
+  left: 0;
+  position: relative;
+  margin: 0 auto;
+}
+
+// refine element ui upload
+.upload-container {
+  .el-upload {
+    width: 100%;
+
+    .el-upload-dragger {
+      width: 100%;
+      height: 200px;
+    }
+  }
+}
+
+
+/*table样式*/
+thead .is-leaf{
+  border: none!important;
+  color: #A8A8A8;
+  font-size: 14px;
+}
+tbody td{
+  //color: #5B6B73;
+}
+.el-table .cell{
+  padding: 0px;
+  //text-align: center;
+  //height: 48px;
+  line-height: 48px;
+}
+.el-table td, .el-table th{
+  padding: 0px!important;
+  user-select: text!important;
+}
+.el-table__body {
+  width: 100%;
+  // 使表格兼容safari，不错位
+  table-layout: fixed !important;
+}
+
+// dropdown
+.el-dropdown-menu {
+  a {
+    display: block
+  }
+}
+.el-input__inner{
+  height: 25px;
+  line-height: 25px;
+}
+// to fix el-date-picker css style
+.el-range-separator {
+  box-sizing: content-box;
+}
+.el-input__inner,.el-input-group__append, .el-input-group__prepend{
+  border-radius: 0;
+}
+.el-input-group__append, .el-input-group__prepend{
+  width: 100px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+
+
+.el-input.is-active .el-input__inner, .el-input__inner:focus{
+  border-color: var(--aeo-primary-color);
+}
+.el-range-editor.is-active, .el-range-editor.is-active:hover{
+  border-color: var(--aeo-primary-color);
+}
+.el-date-table td.end-date span, .el-date-table td.start-date span{
+  background-color: var(--aeo-primary-color);
+}
+.el-input--prefix .el-input__inner{
+  height: 25px;
+}
+.el-input__icon{
+  line-height: 25px;
+}
+.el-input-group--prepend .el-input__inner, .el-input-group__append{
+  height: 25px;
+  line-height: 25px;
+}
+
+
+/*企业管理输入框样式*/
+/*企业设置*/
+.login-container .el-form-item__content{
+  width: 100% !important;
+}
+.login-container .el-input__inner{
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #dcdee3;
+  color: #333;
+}
+
+.login-container .el-input__inner:focus{
+  border-color: var(--aeo-primary-color);
+}
+.login-container .el-input__inner::placeholder{
+  color: #999;
+}
+/*员工设置*/
+
+.sddStaffContainer .el-form-item__label{
+  width: 70px;
+  text-align: center;
+}
+.sddStaffContainer .el-form-item__content{
+  flex: 1;
+  text-align: left;
+}
+.sddStaffContainer .setStaff-container .el-input__inner{
+  height: 40px;
+  width: 85%;
+  border: none;
+  border-bottom: 1px solid #dcdee3;
+  color: #333;
+}
+
+.sddStaffContainer .el-input__inner:focus{
+  border-color: var(--aeo-primary-color);
+}
+.sddStaffContainer .el-input__inner::placeholder{
+  color: #999;
+}
+
+.el-table th > .cell{
+  padding: 0 !important;
+}
+
+.el-popover{
+  box-shadow: 0px 2px 8px 0px rgba(61, 110, 254, 0.2);
+  span{
+    line-height: 1.5;
+  }
+}
+
+.el-icon-question{
+  color: #a9a9a9;
+  font-size: 15px;
+}
+.el-icon-question:hover{
+  color: var(--aeo-primary-color);
+}
+.learn-more{
+  color: #409EFF;
+}
+.learn-more:hover{
+  color: #409EFF;
+}

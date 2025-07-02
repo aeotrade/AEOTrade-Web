@@ -1,0 +1,48 @@
+{
+  "name": "aeotrade_portal",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build --analyze --dotenv env/hmm/.env.production ",
+    "dev": "nuxt dev --dotenv env/hmm/.env.dev --port 3008",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@element-plus/nuxt": "^1.0.5",
+    "@types/json-bigint": "^1.0.1",
+    "compression-webpack-plugin": "^10.0.0",
+    "sass": "^1.64.2",
+    "sass-loader": "^13.3.2",
+    "vite-plugin-vsharp": "^1.4.2"
+  },
+  "dependencies": {
+    "@form-create/element-ui": "^3.1.22",
+    "@logicflow/core": "^1.2.10",
+    "@logicflow/extension": "^1.2.10",
+    "@nuxtjs/color-mode": "^3.3.2",
+    "@popperjs/core": "npm:@sxzz/popperjs-es@^2.11.7",
+    "@wangeditor/editor-for-vue": "^5.1.12",
+    "axios": "^1.5.0",
+    "crypto-js": "^4.1.1",
+    "dayjs-nuxt": "^1.1.2",
+    "echarts": "^5.4.3",
+    "element-plus": "^2.3.9",
+    "ids": "^1.0.5",
+    "js-base64": "^3.7.5",
+    "json-bigint": "^1.0.0",
+    "moment": "^2.29.4",
+    "nuxt": "3.13.2",
+    "nuxt-proxy-request": "^2.1.0",
+    "ofetch": "^1.1.1",
+    "path-browserify": "^1.0.1",
+    "uuid": "^9.0.0",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vue3-count-to": "^1.1.2"
+  },
+  "overrides": {
+    "vite": "5.4.10",
+    "rollup": "4.29.1"
+  }
+}

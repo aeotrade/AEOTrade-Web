@@ -1,0 +1,135 @@
+{
+  "id": "1491725",
+  "name": "easyOrder",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "139850",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "332882",
+      "name": "拨打",
+      "font_class": "boda",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "1445703",
+      "name": "女",
+      "font_class": "nv",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "1588648",
+      "name": "手机",
+      "font_class": "shouji1",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "2501521",
+      "name": "船运",
+      "font_class": "chuanyun",
+      "unicode": "e800",
+      "unicode_decimal": 59392
+    },
+    {
+      "icon_id": "3285137",
+      "name": "保存",
+      "font_class": "baocun",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "3582751",
+      "name": "勾",
+      "font_class": "gou-",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "3719143",
+      "name": "阿根廷",
+      "font_class": "agenting",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "4354681",
+      "name": "41头程、空运",
+      "font_class": "touchengkongyun",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "5941649",
+      "name": "海关数据",
+      "font_class": "haiguanshuju",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "6064979",
+      "name": "上升",
+      "font_class": "shangsheng",
+      "unicode": "e790",
+      "unicode_decimal": 59280
+    },
+    {
+      "icon_id": "6064984",
+      "name": "下降",
+      "font_class": "xiajiang",
+      "unicode": "e791",
+      "unicode_decimal": 59281
+    },
+    {
+      "icon_id": "9136653",
+      "name": "修 改",
+      "font_class": "xiugai",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "9393880",
+      "name": "保存",
+      "font_class": "baocun1",
+      "unicode": "e7f1",
+      "unicode_decimal": 59377
+    },
+    {
+      "icon_id": "10146183",
+      "name": "男",
+      "font_class": "nan",
+      "unicode": "e6ad",
+      "unicode_decimal": 59053
+    },
+    {
+      "icon_id": "10190273",
+      "name": "中国",
+      "font_class": "zhongguo",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "10334072",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "11015174",
+      "name": "手机",
+      "font_class": "44",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+@use 'element-plus/theme-chalk/src/mixins/function' as *;
+
+.el-dialog__header{
+  padding: getCssVar('dialog-padding-primary');
+  padding-bottom: 10px;
+  margin-right: 16px;
+  font-weight: 600;
+}
+
+.el-dialog__body{
+      padding: getCssVar('dialog-padding-primary') getCssVar('dialog-padding-primary') calc(#{getCssVar('dialog-padding-primary')} + 20px);
+      color: getCssVar('text-color', 'regular');
+      font-size: getCssVar('dialog-content-font-size');
+}
+
+
+.el-table .el-table__header-wrapper th{
+	word-break: break-word;
+	background-color: #f8f8f9;
+	color: #515a6e;
+	height: 40px;
+	font-size: 13px;
+}
+
+// .el-popper {
+//   max-width: 650px!important;  //宽度可根据自己需要进行设置 
+// }

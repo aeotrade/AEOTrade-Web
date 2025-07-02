@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">-->
+<!--    <link rel="icon" href="/favicon.png" sizes="256x256">-->
+    <title><%= webpackConfig.name %></title>
+    <style type="text/css">
+      .skyDrive-loading{
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 16px;
+        color:#424242 ;
+        display: flex;
+      }
+      .skyDrive-loading img{
+        height: 120px;
+        width: 120px;
+        margin-bottom: 50px;
+      }
+    </style>
+  </head>
+  <script type="text/javascript">
+    try {
+      CefSharp.BindObjectAsync("user"); //这里会触发后台C#的ResolveObject事件
+    } catch (e) {
+    }
+  </script>
+  <body>
+    <noscript>
+      <strong> <%= webpackConfig.name %></strong>
+    </noscript>
+    <div id="app"></div>
+    <div id="loading" class="skyDrive-loading"><img src="/loading.gif" alt=""><p>正在为您努力加载中，请稍后......</p></div>
+    <!-- built files will be auto injected -->
+
+
+<!--    <script type="text/javascript">-->
+<!--      window.onload=function () {-->
+<!--        let dom=document.querySelector('#loading');-->
+
+<!--      if(!window.__POWERED_BY_QIANKUN__){-->
+<!--        dom.style.display="flex"-->
+<!--      }-->
+
+<!--      }-->
+<!--    </script>-->
+  </body>
+
+
+</html>

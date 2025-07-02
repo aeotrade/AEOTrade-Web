@@ -1,0 +1,19 @@
+{
+  "default":{
+    "openPlatform": {
+      "title": "开放平台",
+      "primaryColor": "#3d5afe",
+      "icon":"default/favicon.svg",
+      "headerShowOrganizationManage": true,
+      "headerShowDownloadClient": true,
+      "headerShowCustomerService": true,
+      "headerShowHelpCenter": true,
+      "headerBackgroundColor":"#fff",
+      "props": {
+        "themeConfig": {
+          "menuBackgroundColor": "#fff"
+        }
+      }
+    }
+  }
+}
